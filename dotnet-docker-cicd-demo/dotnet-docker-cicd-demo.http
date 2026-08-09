@@ -1,0 +1,6 @@
+@dotnet_docker_cicd_demo_HostAddress = http://localhost:5016
+
+GET {{dotnet_docker_cicd_demo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
